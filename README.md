@@ -308,29 +308,24 @@ streamlit run app.py
 
 ```text
 .
+.
 ├── app.py
 ├── requirements.txt
+├── README.md
 ├── Topic_Discovery_Apk_CekBansos.ipynb
 │
 ├── data/
-│   ├── dataset_reviews_apk_cekbansos.csv
-│   ├── combined_stop_words.txt
-│   ├── combined_slang_words.txt
-│   ├── new_kamusalay.csv
-│   ├── indonesian-words.txt
-│   └── trending_ID_1d_20260614-2003.csv
-│
 ├── models/
-│   ├── config.json
-│   ├── ctfidf.safetensors
-│   ├── ctfidf_config.json
-│   ├── topic_embeddings.safetensors
-│   └── topics.json
-│
 ├── flowchart/
-│   └── image.png
 │
-└── README.md
+├── assets/
+│   ├── streamlit_app.png
+│   ├── topic_barchart.png
+│   └── topic_hierarchy.png
+│
+├── outputs/
+│   ├── topic_summary.csv
+│   └── evaluation_results.csv
 ```
 
 ---
